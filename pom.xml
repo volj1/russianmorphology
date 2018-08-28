@@ -4,27 +4,27 @@
     <groupId>org.apache.lucene.morphology</groupId>
     <artifactId>morphology</artifactId>
     <packaging>pom</packaging>
-    <version>1.4</version>
+    <version>1.5</version>
     <name>morphology</name>
     <url>http://maven.apache.org</url>
 
     <scm>
-        <connection>scm:git:https://github.com/AKuznetsov/russianmorphology.git</connection>
-        <developerConnection>scm:git:git@github.com:AKuznetsov/russianmorphology.git</developerConnection>
-        <url>https://github.com/AKuznetsov/russianmorphology</url>
+        <connection>scm:git:https://github.com/volj1/russianmorphology.git</connection>
+        <developerConnection>scm:git:git@github.com:volj1/russianmorphology.git</developerConnection>
+        <url>https://github.com/volj1/russianmorphology</url>
         <tag>HEAD</tag>
     </scm>
 
     <properties>
-        <lucene.version>7.2.1</lucene.version>
-        <morphology.version>1.4</morphology.version>
+        <lucene.version>7.4.0</lucene.version>
+        <morphology.version>1.5</morphology.version>
         <junit.version>4.12</junit.version>
     </properties>
 
     <distributionManagement>
         <repository>
             <id>bintray</id>
-            <url>https://api.bintray.com/maven/akuznetsov/russianmorphology/morphology</url>
+            <url>https://api.bintray.com/radugalik/volj1/russianmorphology/morphology</url>
         </repository>
     </distributionManagement>
 
